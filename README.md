@@ -14,6 +14,9 @@ summary:
 provide commands via TCP port 8000
 receiver will log results to output/result.txt
 
+Version 2.1
+added a "clear result;" api
+
 Version 3.0
 To be work on.
 
