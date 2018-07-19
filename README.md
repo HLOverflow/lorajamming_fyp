@@ -17,6 +17,11 @@ receiver will log results to output/result.txt
 Version 2.1
 added a "clear result;" api
 
+Version 2.2
+changed most char * to const char * so that it is easier to work with using string.c_str()
+Note: 2.2 is not backward compatible to the previous versions due to massive data type changes.
+added 'get time' api in milliseconds.
+
 Version 3.0
 To be work on.
 
