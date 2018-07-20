@@ -22,6 +22,13 @@ changed most char * to const char * so that it is easier to work with using stri
 Note: 2.2 is not backward compatible to the previous versions due to massive data type changes.
 added 'get time' api in milliseconds.
 
+Version 2.3
+changed most client scripts from .16 to .116 and .17 to .117 (wlan0 -> eth0)
+changes "get time" to give microseconds.
+collect time differences using different NTP methods - proven timing difference under 1ms. (delay window to measure in ms.)
+added api to background sntp and kill background sntp;
+- user have to ensure the sntp service are running fine before running ./main because `sntp -s <destination>` may hang the entire program.
+
 Version 3.0
 To be work on.
 
