@@ -29,6 +29,14 @@ collect time differences using different NTP methods - proven timing difference 
 added api to background sntp and kill background sntp;
 - user have to ensure the sntp service are running fine before running ./main because `sntp -s <destination>` may hang the entire program.
 
-Version 3.0
-To be work on.
+Version 2.4
+separated synchronization into a separate sync.sh script.
+refined ntp methods. found a perfect configuration to get under 1000 microsec with probability of 1. require to configure ntpd server properly - no limit.
+corrected receiving window mistake... collected normal result that used delayms.
+the filereader class still has a bug... sometimes will return @ instead of the actual content (TODO)
+-> use scp to copy out the output/result.txt as a temporary mitigation.
+removed invoke command class. 
+APIs available: start experiment, forcekill experiment, get time, get result, clear result, bye
 
+Version 3.0
+To be work on - integration with replay attack
