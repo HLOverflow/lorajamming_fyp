@@ -38,5 +38,8 @@ the filereader class still has a bug... sometimes will return @ instead of the a
 removed invoke command class. 
 APIs available: start experiment, forcekill experiment, get time, get result, clear result, bye
 
+Version 2.5
+Fix the file reading bug. Added a way to vary data length.
+
 Version 3.0
 To be work on - integration with replay attack
