@@ -41,5 +41,9 @@ APIs available: start experiment, forcekill experiment, get time, get result, cl
 Version 2.5
 Fix the file reading bug. Added a way to vary data length.
 
+Version 2.5.1
+Realized that "radio wdt timeout" will not block the entire 15seconds. added delay after each receive. 
+previous data are deemed not valid for study.
+
 Version 3.0
 To be work on - integration with replay attack
