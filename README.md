@@ -1,6 +1,6 @@
 # lorajamming_fyp
 
-Version 1.0		
+Version 1.0
 Previous FYP Jia Hui's Work (prototype)
 delay execution until the clock reach the next minute 0 second mark.
 
@@ -44,6 +44,9 @@ Fix the file reading bug. Added a way to vary data length.
 Version 2.5.1
 Realized that "radio wdt timeout" will not block the entire 15seconds. added delay after each receive. 
 previous data are deemed not valid for study.
+
+Version 2.5.2
+corrected the delay behind each receive.
 
 Version 3.0
 To be work on - integration with replay attack
