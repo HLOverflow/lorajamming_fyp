@@ -48,5 +48,9 @@ previous data are deemed not valid for study.
 Version 2.5.2
 corrected the delay behind each receive.
 
+Version 2.5.3
+changed the "state" recorded to simply RECEIVED vs LOSS.
+added boundarysearch to automate data collection using binary search.
+
 Version 3.0
 To be work on - integration with replay attack
