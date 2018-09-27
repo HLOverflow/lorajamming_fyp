@@ -52,5 +52,8 @@ Version 2.5.3
 changed the "state" recorded to simply RECEIVED vs LOSS.
 added boundarysearch to automate data collection using binary search.
 
+Version 2.5.4
+More experiments per minute. better accuracy in data collection.
+
 Version 3.0
 To be work on - integration with replay attack
