@@ -54,6 +54,8 @@ added boundarysearch to automate data collection using binary search.
 
 Version 2.5.4
 More experiments per minute. better accuracy in data collection.
+
+Version 2.5.5
 included ability to change sf and bw
 
 Version 3.0
