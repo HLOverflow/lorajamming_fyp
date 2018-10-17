@@ -58,5 +58,5 @@ More experiments per minute. better accuracy in data collection.
 Version 2.5.5
 included ability to change sf and bw
 
-Version 3.0
-To be work on - integration with replay attack
+Version 2.6
+FINAL CODE with readme.txt added for the folders
