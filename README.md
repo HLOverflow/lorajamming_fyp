@@ -62,4 +62,4 @@ Version 2.6
 FINAL CODE with readme.txt added for the folders
 
 Version 2.6.1
-Added Videos
+Minor change.
